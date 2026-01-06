@@ -14,14 +14,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # Stable version for financial libraries
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas==2.2.2
-          pip install yfinance scipy requests
-          pip install pandas-ta --user 
+          pip install yfinance scipy pandas requests
 
       - name: Run screener
         env:
@@ -33,3 +31,4 @@ jobs:
         with:
           name: Whale-Report
           path: Options_Whale_Screen_2026.csv
+

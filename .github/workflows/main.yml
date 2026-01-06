@@ -2,7 +2,7 @@ name: Weekly Options Screener
 on:
   schedule:
     - cron: '0 13 * * 1' # Runs every Monday at 8:00 AM EST
-  workflow_dispatch: # Adds a 'Run' button for manual testing
+  workflow_dispatch: # Manual run button
 
 jobs:
   build:
@@ -14,10 +14,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.10' # We lock this to 3.10 for maximum stability
 
       - name: Install dependencies
-        run: pip install yfinance pandas_ta scipy pandas requests
+        # We use --upgrade and specific names to force a clean install
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance scipy pandas requests pandas-ta
 
       - name: Run screener
         env:
@@ -29,3 +32,4 @@ jobs:
         with:
           name: Whale-Report
           path: Options_Whale_Screen_2026.csv
+

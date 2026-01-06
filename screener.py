@@ -22,14 +22,25 @@ def get_whale_support(df):
     volume_at_price = df.groupby(price_bins, observed=True)['Volume'].sum()
     return round(volume_at_price.idxmax().left, 2)
 
+import requests
+
 def get_sp500_tickers():
-    """Scrapes the current S&P 500 list from Wikipedia."""
+    """Scrapes the S&P 500 list using a User-Agent to avoid 403 Forbidden errors."""
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    # By using 'bs4', we use the most common web-scraping library
-    table = pd.read_html(url, flavor='bs4')
+    
+    # This header makes the script look like a real browser
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+    
+    response = requests.get(url, headers=headers)
+    
+    # Now we pass the response text to pandas
+    table = pd.read_html(response.text, flavor='bs4')
     df = table[0]
     tickers = df['Symbol'].str.replace('.', '-').tolist()
     return tickers
+
 
 
 def run_screener():

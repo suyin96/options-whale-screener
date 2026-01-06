@@ -23,13 +23,14 @@ def get_whale_support(df):
     return round(volume_at_price.idxmax().left, 2)
 
 def get_sp500_tickers():
-    """Scrapes the S&P 500 list using html5lib to avoid lxml errors."""
+    """Scrapes the current S&P 500 list from Wikipedia."""
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    # The 'html5lib' flavor is the key fix for your error
-    table = pd.read_html(url, flavor='html5lib')
+    # By using 'bs4', we use the most common web-scraping library
+    table = pd.read_html(url, flavor='bs4')
     df = table[0]
     tickers = df['Symbol'].str.replace('.', '-').tolist()
     return tickers
+
 
 def run_screener():
     print("Starting S&P 500 Whale Scan...")

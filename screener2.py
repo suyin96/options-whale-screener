@@ -5,7 +5,6 @@ import numpy as np
 from scipy.stats import norm
 import time
 
-# --- CUSTOM RSI FUNCTION (REPLACES PANDAS_TA) ---
 def calculate_rsi(data, window=14):
     delta = data.diff()
     gain = (delta.where(delta > 0, 0)).rolling(window=window).mean()
@@ -23,11 +22,23 @@ def get_whale_support(df):
     volume_at_price = df.groupby(price_bins, observed=True)['Volume'].sum()
     return round(volume_at_price.idxmax().left, 2)
 
+def get_sp500_tickers():
+    """Scrapes the current S&P 500 list from Wikipedia."""
+    url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+    table = pd.read_html(url)
+    df = table[0]
+    # Convert 'BRK.B' format to 'BRK-B' for Yahoo Finance compatibility
+    tickers = df['Symbol'].str.replace('.', '-').tolist()
+    return tickers
+
 def run_screener():
-    tickers = ["AAPL", "MSFT", "NVDA", "TSLA", "GOOGL", "AMZN", "META"]
-    final_candidates = []
+    print("Fetching live S&P 500 list from Wikipedia...")
+    tickers = get_sp500_tickers()
+    all_data = []
     
-    for ticker in tickers:
+    print(f"Scanning {len(tickers)} stocks. This will take ~10-15 minutes...")
+
+    for i, ticker in enumerate(tickers):
         try:
             stock = yf.Ticker(ticker)
             hist = stock.history(period="1y")
@@ -35,30 +46,44 @@ def run_screener():
 
             price = hist['Close'].iloc[-1]
             sma200 = hist['Close'].rolling(200).mean().iloc[-1]
-            
-            # Use our custom RSI instead of the library
-            rsi_series = calculate_rsi(hist['Close'])
-            rsi = rsi_series.iloc[-1]
-            
-            if price > sma200 and rsi < 50:
-                poc_support = get_whale_support(hist.tail(90))
-                iv = stock.info.get('impliedVolatility', 0.25)
-                target_strike = poc_support if poc_support < price else round(price * 0.95, 2)
-                pop = calculate_pop(price, target_strike, iv)
+            rsi = calculate_rsi(hist['Close']).iloc[-1]
+            poc_support = get_whale_support(hist.tail(90))
+            iv = stock.info.get('impliedVolatility', 0.25)
+            target_strike = poc_support if poc_support < price else round(price * 0.95, 2)
+            pop = calculate_pop(price, target_strike, iv)
 
-                final_candidates.append({
-                    'Ticker': ticker, 'Price': round(price, 2), 'RSI': round(rsi, 2),
-                    'Whale_Support': poc_support, 'Target_Strike': target_strike,
-                    'PoP_%': pop, 'Status': 'PRIME' if (pop > 80 and rsi < 40) else 'Watch'
-                })
-            time.sleep(1)
-        except Exception as e:
-            print(f"Error on {ticker}: {e}")
+            # Scoring: RSI (Lower=Better) + PoP (Higher=Better)
+            match_score = (100 - rsi) + pop
 
-    df_output = pd.DataFrame(final_candidates)
-    df_output.to_csv("Options_Whale_Screen_2026.csv", index=False)
-    print("Success! File Created.")
+            all_data.append({
+                'Ticker': ticker,
+                'Price': round(price, 2),
+                'RSI': round(rsi, 2),
+                'Whale_Support': poc_support,
+                'PoP_%': pop,
+                'Match_Score': round(match_score, 2),
+                'Trend': 'BULL' if price > sma200 else 'BEAR'
+            })
+            
+            # Print progress every 50 tickers
+            if i % 50 == 0: print(f"Progress: {i}/{len(tickers)}...")
+            time.sleep(1.2) # Throttling to stay under Yahoo's radar
+            
+        except Exception:
+            continue
+
+    df = pd.DataFrame(all_data)
+    df = df.sort_values(by='Match_Score', ascending=False).head(20)
+    
+    # Labeling Matches vs Non-Matches
+    df['Status'] = 'WATCH'
+    df.loc[(df['PoP_%'] >= 80) & (df['RSI'] <= 45) & (df['Trend'] == 'BULL'), 'Status'] = 'PRIME'
+    df.loc[(df['Trend'] == 'BEAR'), 'Status'] = 'RISKY (Downtrend)'
+
+    df.to_csv("Options_Whale_Screen_2026.csv", index=False)
+    print("Scan Complete! Top 20 ranking saved.")
 
 if __name__ == "__main__":
     run_screener()
+
 

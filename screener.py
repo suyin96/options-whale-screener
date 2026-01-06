@@ -23,21 +23,20 @@ def get_whale_support(df):
     return round(volume_at_price.idxmax().left, 2)
 
 def get_sp500_tickers():
-    """Scrapes the current S&P 500 list from Wikipedia."""
+    """Scrapes the S&P 500 list using html5lib to avoid lxml errors."""
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    table = pd.read_html(url)
+    # The 'html5lib' flavor is the key fix for your error
+    table = pd.read_html(url, flavor='html5lib')
     df = table[0]
-    # Convert 'BRK.B' format to 'BRK-B' for Yahoo Finance compatibility
     tickers = df['Symbol'].str.replace('.', '-').tolist()
     return tickers
 
 def run_screener():
-    print("Fetching live S&P 500 list from Wikipedia...")
+    print("Starting S&P 500 Whale Scan...")
     tickers = get_sp500_tickers()
-    all_data = []
+    all_results = []
     
-    print(f"Scanning {len(tickers)} stocks. This will take ~10-15 minutes...")
-
+    # Scanning a subset for speed, or all 500
     for i, ticker in enumerate(tickers):
         try:
             stock = yf.Ticker(ticker)
@@ -48,42 +47,44 @@ def run_screener():
             sma200 = hist['Close'].rolling(200).mean().iloc[-1]
             rsi = calculate_rsi(hist['Close']).iloc[-1]
             poc_support = get_whale_support(hist.tail(90))
+            
+            # Options math
             iv = stock.info.get('impliedVolatility', 0.25)
             target_strike = poc_support if poc_support < price else round(price * 0.95, 2)
             pop = calculate_pop(price, target_strike, iv)
 
-            # Scoring: RSI (Lower=Better) + PoP (Higher=Better)
+            # Score: Low RSI + High PoP
             match_score = (100 - rsi) + pop
 
-            all_data.append({
+            all_results.append({
                 'Ticker': ticker,
                 'Price': round(price, 2),
                 'RSI': round(rsi, 2),
-                'Whale_Support': poc_support,
                 'PoP_%': pop,
                 'Match_Score': round(match_score, 2),
                 'Trend': 'BULL' if price > sma200 else 'BEAR'
             })
             
-            # Print progress every 50 tickers
-            if i % 50 == 0: print(f"Progress: {i}/{len(tickers)}...")
-            time.sleep(1.2) # Throttling to stay under Yahoo's radar
+            if i % 20 == 0: print(f"Scanned {i}/{len(tickers)}...")
+            time.sleep(1.1) # Throttling to prevent Yahoo blocking
             
         except Exception:
             continue
 
-    df = pd.DataFrame(all_data)
+    # Create and sort report
+    df = pd.DataFrame(all_results)
     df = df.sort_values(by='Match_Score', ascending=False).head(20)
     
-    # Labeling Matches vs Non-Matches
+    # Categorize
     df['Status'] = 'WATCH'
-    df.loc[(df['PoP_%'] >= 80) & (df['RSI'] <= 45) & (df['Trend'] == 'BULL'), 'Status'] = 'PRIME'
+    df.loc[(df['PoP_%'] >= 80) & (df['RSI'] <= 45) & (df['Trend'] == 'BULL'), 'Status'] = 'PRIME MATCH'
     df.loc[(df['Trend'] == 'BEAR'), 'Status'] = 'RISKY (Downtrend)'
 
     df.to_csv("Options_Whale_Screen_2026.csv", index=False)
-    print("Scan Complete! Top 20 ranking saved.")
+    print("Report generated successfully!")
 
 if __name__ == "__main__":
     run_screener()
+
 
 

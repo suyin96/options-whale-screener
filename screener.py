@@ -15,7 +15,7 @@ def send_whatsapp(body_text):
         my_number = os.getenv('MY_PHONE_NUMBER')
         if not all([account_sid, auth_token, my_number]): return
         client = Client(account_sid, auth_token)
-        client.messages.create(from_='whatsapp:+14155238886', body=body_text, to=my_number)
+        client.messages.create(from_='whatsapp:+18569345648', body=body_text, to=my_number)
     except Exception as e: print(f"WhatsApp Error: {e}")
 
 # --- METRICS CALCULATIONS ---

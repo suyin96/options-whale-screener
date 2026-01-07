@@ -19,12 +19,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # We are installing EVERY parser to make sure pandas has no excuses
-          pip install yfinance scipy pandas requests lxml html5lib beautifulsoup4
+          pip install yfinance scipy pandas requests lxml html5lib beautifulsoup4 twilio
 
       - name: Run screener
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          MY_PHONE_NUMBER: ${{ secrets.MY_PHONE_NUMBER }}
         run: python screener.py
 
       - name: Upload CSV Results

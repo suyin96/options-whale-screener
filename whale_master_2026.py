@@ -10,12 +10,15 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 # --- CORE HELPERS ---
+from io import StringIO  # <--- Add this at the top
+
 def get_sp500_tickers():
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
     headers = {"User-Agent": "Mozilla/5.0"}
     try:
         response = requests.get(url, headers=headers)
-        table = pd.read_html(response.text, flavor='bs4')
+        # Wrap response.text in StringIO to fix the FutureWarning
+        table = pd.read_html(StringIO(response.text), flavor='bs4') 
         return table[0]['Symbol'].str.replace('.', '-').tolist()
     except Exception as e:
         print(f"Error fetching tickers: {e}")
@@ -86,8 +89,13 @@ def run_whale_system():
     df = pd.DataFrame(all_data)
 
     # 1. GENERATE SECTOR REPORT
+    if df.empty:
+        print("❌ No data collected. Check ticker list or API status.")
+        send_telegram_alert("⚠️ *Whale Scan Error:* No data collected this week.")
+        return # Exit early instead of trying to group by 'Sector'
+
+    # Now it is safe to generate reports
     sector_summary = df.groupby('Sector').agg({'Upside_%': 'mean', 'ROE_%': 'mean', 'Ticker': 'count'})
-    sector_summary.to_csv("Sector_Intelligence_2026.csv")
 
     # 2. GENERATE MASTER TOP 30
     df['Quality_Score'] = df['ROE_%'] + df['Upside_%']

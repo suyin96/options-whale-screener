@@ -17,9 +17,9 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+- name: Install Dependencies
         run: |
-          pip install pandas yfinance requests lxml beautifulsoup4
+          pip install pandas yfinance requests lxml beautifulsoup4 html5lib
 
       - name: Execute Whale Scan
         env:

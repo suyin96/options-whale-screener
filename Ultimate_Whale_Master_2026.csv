@@ -1,31 +1,31 @@
 Ticker,Name,Sector,Price,Fair_Value,Upside_%,Stop_Loss,Target_Sell,ROE_%,Rev_Growth_%,Trap_Warning,Dividend_Yield_%,Quality_Score
-ALL,Allstate Corporation (The),Financial Services,192.28,886.65,361.1,180.74,886.65,34.5,3.8,NO,208.0,395.6
-EIX,Edison International,Utilities,62.39,219.36,251.6,58.25,219.36,15.8,10.6,NO,563.0,267.4
-VZ,Verizon Communications Inc.,Communication Services,38.91,134.84,246.5,36.58,134.84,19.9,1.5,NO,709.0,266.4
-ACGL,Arch Capital Group Ltd.,Financial Services,90.65,306.76,238.4,85.21,306.76,17.8,8.2,NO,0.0,256.2
-CL,Colgate-Palmolive Company,Consumer Defensive,84.52,52.03,-38.4,79.45,94.66,293.6,1.9,NO,246.0,255.20000000000002
-SYF,Synchrony Financial,Financial Services,80.19,262.2,227.0,71.05,262.2,21.6,20.7,NO,150.0,248.6
-DAL,"Delta Air Lines, Inc.",Industrials,70.43,220.23,212.7,62.66,220.23,27.8,2.9,NO,106.0,240.5
-VRSK,"Verisk Analytics, Inc.",Industrials,220.41,111.31,-49.5,206.15,248.94,268.1,5.9,NO,82.0,218.60000000000002
-HIG,"The Hartford Insurance Group, I",Financial Services,129.59,351.33,171.1,121.81,351.33,20.1,7.0,NO,185.0,191.2
-TRV,"The Travelers Companies, Inc.",Financial Services,269.42,730.54,171.2,253.25,730.54,19.8,4.8,NO,163.0,191.0
-APP,Applovin Corporation,Communication Services,568.76,243.51,-57.2,466.38,773.51,241.9,68.2,NO,0.0,184.7
-PYPL,"PayPal Holdings, Inc.",Financial Services,56.89,143.18,151.7,50.4,143.18,24.4,7.3,NO,98.0,176.1
-MA,Mastercard Incorporated,Financial Services,539.49,449.94,-16.6,502.5,613.46,184.9,16.7,NO,65.0,168.3
-AMP,"Ameriprise Financial, Inc.",Financial Services,509.32,1045.64,105.3,458.14,1045.64,59.6,7.3,NO,126.0,164.9
-F,Ford Motor Company,Consumer Cyclical,13.6,33.64,147.4,11.83,33.64,10.3,9.4,NO,441.0,157.70000000000002
-AAPL,Apple Inc.,Technology,255.53,214.47,-16.1,233.19,300.22,171.4,7.9,NO,41.0,155.3
-CI,The Cigna Group,Healthcare,272.21,649.46,138.6,255.88,649.46,15.5,9.5,NO,222.0,154.1
-CINF,Cincinnati Financial Corporatio,Financial Services,162.18,386.4,138.3,152.45,386.4,14.5,12.2,NO,215.0,152.8
-T,AT&T Inc.,Communication Services,23.49,53.72,128.7,22.08,53.72,19.1,1.6,NO,473.0,147.79999999999998
-FTNT,"Fortinet, Inc.",Technology,75.38,12.64,-83.2,68.93,88.27,228.0,14.4,NO,0.0,144.8
-CB,Chubb Limited,Financial Services,300.77,688.28,128.8,282.72,688.28,13.6,9.1,NO,129.0,142.4
-MTB,M&T Bank Corporation,Financial Services,212.28,488.75,130.2,199.54,488.75,9.8,4.7,NO,283.0,140.0
-PGR,Progressive Corporation (The),Financial Services,202.37,415.64,105.4,190.23,415.64,34.2,14.2,NO,687.0,139.60000000000002
-MRK,"Merck & Company, Inc.",Healthcare,108.83,217.35,99.7,102.3,217.35,39.5,3.7,NO,312.0,139.2
-HBAN,Huntington Bancshares Incorpora,Financial Services,18.02,41.11,128.1,16.63,41.11,10.4,14.8,NO,344.0,138.5
-USB,U.S. Bancorp,Financial Services,54.4,120.72,121.9,49.66,120.72,11.7,7.2,NO,375.0,133.6
-XYZ,"Block, Inc.",Technology,65.95,142.89,116.7,54.08,142.89,14.7,2.3,NO,0.0,131.4
-PCG,Pacific Gas & Electric Co.,Utilities,15.61,34.21,119.2,14.67,34.21,8.8,5.2,NO,128.0,128.0
-OKE,"ONEOK, Inc.",Energy,74.4,156.4,110.2,68.92,156.4,17.8,71.9,NO,554.0,128.0
-NTAP,"NetApp, Inc.",Technology,103.84,106.05,2.1,92.43,126.67,125.3,2.8,NO,200.0,127.39999999999999
+ALL,Allstate Corporation (The),Financial Services,193.65,886.94,358.0,182.03,886.94,34.5,3.8,NO,207.0,392.5
+EIX,Edison International,Utilities,60.77,219.36,261.0,56.74,219.36,15.8,10.6,NO,578.0,276.8
+SYF,Synchrony Financial,Financial Services,76.61,262.2,242.3,67.88,262.2,21.6,20.7,NO,157.0,263.90000000000003
+VZ,Verizon Communications Inc.,Communication Services,39.52,134.84,241.2,37.15,134.84,19.9,1.5,NO,698.0,261.09999999999997
+CL,Colgate-Palmolive Company,Consumer Defensive,86.66,52.03,-40.0,81.46,97.06,293.6,1.9,NO,240.0,253.60000000000002
+DAL,"Delta Air Lines, Inc.",Industrials,67.96,220.23,224.1,60.46,220.23,27.8,2.9,NO,110.0,251.9
+ACGL,Arch Capital Group Ltd.,Financial Services,92.96,306.76,230.0,87.38,306.76,17.8,8.2,NO,0.0,247.8
+VRSK,"Verisk Analytics, Inc.",Industrials,218.04,111.31,-48.9,203.93,246.26,268.1,5.9,NO,83.0,219.20000000000002
+TRV,"The Travelers Companies, Inc.",Financial Services,277.72,788.9,184.1,261.06,788.9,20.7,3.5,NO,158.0,204.79999999999998
+HIG,"The Hartford Insurance Group, I",Financial Services,128.62,351.33,173.2,120.9,351.33,20.1,7.0,NO,187.0,193.29999999999998
+APP,Applovin Corporation,Communication Services,524.41,244.38,-53.4,430.02,713.2,241.9,68.2,NO,0.0,188.5
+PYPL,"PayPal Holdings, Inc.",Financial Services,56.62,143.18,152.9,50.16,143.18,24.4,7.3,NO,99.0,177.3
+MA,Mastercard Incorporated,Financial Services,524.74,449.65,-14.3,488.76,596.69,184.9,16.7,NO,66.0,170.6
+AMP,"Ameriprise Financial, Inc.",Financial Services,496.6,1045.06,110.4,446.7,1045.06,59.6,7.3,NO,129.0,170.0
+CINF,Cincinnati Financial Corporatio,Financial Services,157.03,386.4,146.1,147.61,386.4,14.5,12.2,NO,222.0,160.6
+F,Ford Motor Company,Consumer Cyclical,13.56,33.64,148.1,11.79,33.64,10.3,9.4,NO,442.0,158.4
+AAPL,Apple Inc.,Technology,248.04,214.76,-13.4,226.35,291.42,171.4,7.9,NO,42.0,158.0
+USB,U.S. Bancorp,Financial Services,55.47,132.82,139.4,50.63,132.82,12.2,5.3,NO,368.0,151.6
+CI,The Cigna Group,Healthcare,279.2,649.46,132.6,262.45,649.46,15.5,9.5,NO,216.0,148.1
+T,AT&T Inc.,Communication Services,23.59,53.72,127.7,22.17,53.72,19.1,1.6,NO,471.0,146.8
+FTNT,"Fortinet, Inc.",Technology,81.64,12.64,-84.5,74.66,95.6,228.0,14.4,NO,0.0,143.5
+CB,Chubb Limited,Financial Services,300.91,687.7,128.5,282.86,687.7,13.6,9.1,NO,129.0,142.1
+MRK,"Merck & Company, Inc.",Healthcare,108.18,217.35,100.9,101.69,217.35,39.5,3.7,NO,314.0,140.4
+CTRA,Coterra Energy Inc.,Energy,27.42,62.1,126.5,25.77,62.1,11.9,34.9,NO,321.0,138.4
+MTB,M&T Bank Corporation,Financial Services,213.82,488.75,128.6,200.99,488.75,9.8,4.7,NO,281.0,138.4
+PCG,Pacific Gas & Electric Co.,Utilities,14.95,34.21,128.8,14.05,34.21,8.8,5.2,NO,134.0,137.60000000000002
+PGR,Progressive Corporation (The),Financial Services,206.03,415.64,101.7,193.67,415.64,34.2,14.2,NO,675.0,135.9
+PNC,"PNC Financial Services Group, I",Financial Services,219.39,476.96,117.4,201.98,476.96,12.2,9.6,NO,310.0,129.6
+CCL,Carnival Corporation,Consumer Cyclical,28.55,58.08,103.4,23.41,58.08,25.6,6.6,NO,53.0,129.0
+XYZ,"Block, Inc.",Technology,66.83,142.89,113.8,54.8,142.89,14.7,2.3,NO,0.0,128.5

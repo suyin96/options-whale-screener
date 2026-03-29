@@ -1,31 +1,31 @@
 Ticker,Name,Sector,Price,Fair_Value,Upside_%,Stop_Loss,Target_Sell,ROE_%,Rev_Growth_%,Trap_Warning,Dividend_Yield_%,Quality_Score
-ABBV,AbbVie Inc.,Healthcare,205.07,41.65,-79.7,192.77,229.68,6225.0,10.0,NO,337.0,6145.3
-ALL,Allstate Corporation (The),Financial Services,205.62,1094.23,432.2,193.28,1094.23,39.5,5.1,NO,210.0,471.7
-CL,Colgate-Palmolive Company,Consumer Defensive,85.12,46.02,-45.9,80.01,95.33,497.5,5.8,NO,249.0,451.6
-EIX,Edison International,Utilities,69.75,332.06,376.1,65.41,332.06,24.1,30.8,NO,503.0,400.20000000000005
-VRSK,"Verisk Analytics, Inc.",Industrials,201.75,113.4,-43.8,188.89,227.48,437.9,0.0,NO,99.0,394.09999999999997
-ACGL,Arch Capital Group Ltd.,Financial Services,92.3,333.5,261.3,86.76,333.5,19.5,8.5,NO,0.0,280.8
-PYPL,"PayPal Holdings, Inc.",Financial Services,44.01,155.54,253.4,38.87,155.54,25.7,3.7,NO,127.0,279.1
-DAL,"Delta Air Lines, Inc.",Industrials,63.44,220.23,247.1,56.59,220.23,27.7,2.9,NO,118.0,274.8
-SPG,"Simon Property Group, Inc.",Real Estate,184.52,407.39,120.8,163.9,407.39,104.1,13.2,NO,469.0,224.89999999999998
-BA,Boeing Company (The),Industrials,195.12,43.4,-77.8,178.01,229.34,290.1,57.1,NO,0.0,212.3
-HIG,"The Hartford Insurance Group, I",Financial Services,132.65,382.95,188.7,124.69,382.95,21.7,6.7,NO,181.0,210.39999999999998
-PGR,Progressive Corporation (The),Financial Services,206.0,552.57,168.2,193.64,552.57,40.4,12.2,NO,675.0,208.6
-MA,Mastercard Incorporated,Financial Services,496.32,475.24,-4.2,463.13,562.71,209.9,17.6,NO,70.0,205.70000000000002
-SYF,Synchrony Financial,Financial Services,66.19,181.89,174.8,58.71,181.89,21.3,5.0,NO,181.0,196.10000000000002
-CINF,Cincinnati Financial Corporatio,Financial Services,158.43,436.42,175.5,148.92,436.42,16.0,21.8,NO,224.0,191.5
-TRV,"The Travelers Companies, Inc.",Financial Services,296.6,788.9,166.0,278.8,788.9,20.7,3.5,NO,148.0,186.7
-APP,Applovin Corporation,Communication Services,442.39,288.65,-34.8,362.76,601.65,212.9,65.9,NO,0.0,178.10000000000002
-USB,U.S. Bancorp,Financial Services,51.25,132.82,159.2,46.98,132.82,12.2,5.3,NO,402.0,171.39999999999998
-CCL,Carnival Corporation,Consumer Cyclical,24.12,58.08,140.8,19.78,58.08,25.6,6.6,NO,62.0,166.4
-NTAP,"NetApp, Inc.",Technology,101.11,153.47,51.8,90.2,153.47,112.6,4.4,NO,206.0,164.39999999999998
-ELV,"Elevance Health, Inc.",Healthcare,291.48,724.79,148.7,273.99,724.79,13.2,9.5,NO,236.0,161.89999999999998
-MTB,M&T Bank Corporation,Financial Services,198.15,488.75,146.7,186.26,488.75,9.8,4.7,NO,303.0,156.5
-UAL,"United Airlines Holdings, Inc.",Industrials,89.95,202.21,124.8,80.98,202.21,24.0,4.8,NO,0.0,148.8
-PNC,"PNC Financial Services Group, I",Financial Services,201.71,476.67,136.3,185.99,476.67,12.2,9.6,NO,337.0,148.5
-CB,Chubb Limited,Financial Services,322.58,738.3,128.9,303.23,738.3,14.3,5.5,NO,120.0,143.20000000000002
-BAC,Bank of America Corporation,Financial Services,47.16,109.54,132.3,42.39,109.54,10.2,7.2,NO,237.0,142.5
-FITB,Fifth Third Bancorp,Financial Services,44.19,101.49,129.7,40.77,101.49,12.2,11.6,NO,362.0,141.89999999999998
-AAPL,Apple Inc.,Technology,247.99,217.33,-12.4,225.85,292.27,152.0,15.7,NO,42.0,139.6
-FSLR,"First Solar, Inc.",Technology,192.82,408.54,111.9,167.4,408.54,17.4,11.1,NO,0.0,129.3
-L,Loews Corporation,Financial Services,105.6,229.14,117.0,99.26,229.14,9.4,4.1,NO,24.0,126.4
+ABBV,AbbVie Inc.,Healthcare,209.4,41.48,-80.2,196.84,234.53,6225.0,10.0,NO,330.0,6144.8
+ALL,Allstate Corporation (The),Financial Services,202.71,1094.51,439.9,190.55,1094.51,39.5,5.1,NO,213.0,479.4
+CL,Colgate-Palmolive Company,Consumer Defensive,84.29,46.02,-45.4,79.23,94.4,497.5,5.8,NO,252.0,452.1
+VRSK,"Verisk Analytics, Inc.",Industrials,182.75,113.58,-37.8,171.1,206.05,437.9,0.0,NO,109.0,400.09999999999997
+EIX,Edison International,Utilities,70.3,332.06,372.3,65.93,332.06,24.1,30.8,NO,499.0,396.40000000000003
+PYPL,"PayPal Holdings, Inc.",Financial Services,43.59,155.54,256.8,38.5,155.54,25.7,3.7,NO,128.0,282.5
+ACGL,Arch Capital Group Ltd.,Financial Services,93.42,333.5,257.0,87.81,333.5,19.5,8.5,NO,0.0,276.5
+DAL,"Delta Air Lines, Inc.",Industrials,64.83,220.23,239.7,57.83,220.23,27.7,2.9,NO,116.0,267.4
+SPG,"Simon Property Group, Inc.",Real Estate,180.19,407.1,125.9,160.05,407.1,104.1,13.2,NO,480.0,230.0
+PGR,Progressive Corporation (The),Financial Services,198.84,552.86,178.0,186.91,552.86,40.4,12.2,NO,699.0,218.4
+BA,Boeing Company (The),Industrials,190.52,43.4,-77.2,173.82,223.93,290.1,57.1,NO,0.0,212.90000000000003
+HIG,"The Hartford Insurance Group, I",Financial Services,132.32,382.95,189.4,124.38,382.95,21.7,6.7,NO,181.0,211.1
+MA,Mastercard Incorporated,Financial Services,484.24,474.66,-2.0,451.85,549.01,209.9,17.6,NO,72.0,207.9
+CINF,Cincinnati Financial Corporatio,Financial Services,153.68,436.14,183.8,144.46,436.14,16.0,21.8,NO,231.0,199.8
+SYF,Synchrony Financial,Financial Services,65.36,181.89,178.3,57.98,181.89,21.3,5.0,NO,184.0,199.60000000000002
+TRV,"The Travelers Companies, Inc.",Financial Services,285.27,788.9,176.5,268.15,788.9,20.7,3.5,NO,154.0,197.2
+APP,Applovin Corporation,Communication Services,381.2,288.36,-24.4,312.58,518.43,212.9,65.9,NO,0.0,188.5
+USB,U.S. Bancorp,Financial Services,50.85,132.82,161.2,46.62,132.82,12.2,5.3,NO,405.0,173.39999999999998
+ELV,"Elevance Health, Inc.",Healthcare,286.39,724.5,153.0,269.21,724.5,13.2,9.5,NO,240.0,166.2
+NTAP,"NetApp, Inc.",Technology,102.34,153.47,50.0,91.3,153.47,112.6,4.4,NO,203.0,162.6
+MTB,M&T Bank Corporation,Financial Services,200.93,488.75,143.2,188.87,488.75,9.8,4.7,NO,299.0,153.0
+UAL,"United Airlines Holdings, Inc.",Industrials,88.44,202.21,128.6,79.62,202.21,24.0,4.8,NO,0.0,152.6
+PNC,"PNC Financial Services Group, I",Financial Services,202.39,477.25,135.8,186.62,477.25,12.2,9.6,NO,336.0,148.0
+CB,Chubb Limited,Financial Services,319.09,738.59,131.5,299.94,738.59,14.3,5.5,NO,122.0,145.8
+BAC,Bank of America Corporation,Financial Services,46.97,109.54,133.2,42.22,109.54,10.2,7.2,NO,238.0,143.39999999999998
+FITB,Fifth Third Bancorp,Financial Services,44.54,101.49,127.9,41.09,101.49,12.2,11.6,NO,359.0,140.1
+AAPL,Apple Inc.,Technology,248.8,217.33,-12.6,226.59,293.23,152.0,15.7,NO,42.0,139.4
+CTSH,Cognizant Technology Solutions ,Technology,59.73,131.1,119.5,55.03,131.1,15.2,4.9,NO,221.0,134.7
+FSLR,"First Solar, Inc.",Technology,190.29,408.54,114.7,165.2,408.54,17.4,11.1,NO,0.0,132.1
+L,Loews Corporation,Financial Services,104.06,229.14,120.2,97.82,229.14,9.4,4.1,NO,24.0,129.6

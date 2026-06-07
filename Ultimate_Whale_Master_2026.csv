@@ -1,31 +1,31 @@
 Ticker,Name,Sector,Price,Fair_Value,Upside_%,Stop_Loss,Target_Sell,ROE_%,Rev_Growth_%,Trap_Warning,Dividend_Yield_%,Quality_Score
-STX,Seagate Technology Holdings PLC,Technology,879.8,303.6,-65.5,738.4,1162.6,1788.0,44.1,NO,34.0,1722.5
-CI,The Cigna Group,Healthcare,277.4,3269.16,1078.5,260.76,3269.16,16.3,4.6,NO,225.0,1094.8
-ALL,Allstate Corporation (The),Financial Services,206.09,1299.5,530.5,193.72,1299.5,45.2,3.0,NO,210.0,575.7
-SYF,Synchrony Financial,Financial Services,71.44,277.73,288.8,63.66,277.73,21.8,6.1,NO,168.0,310.6
-CL,Colgate-Palmolive Company,Consumer Defensive,90.13,24.06,-73.3,84.72,100.95,363.6,8.4,NO,235.0,290.3
-FIS,Fidelity National Information S,Technology,42.99,148.35,245.1,40.14,148.35,17.2,30.1,NO,391.0,262.3
-TRV,"The Travelers Companies, Inc.",Financial Services,291.89,963.41,230.1,274.38,963.41,25.3,1.0,NO,171.0,255.4
-HIG,"The Hartford Insurance Group, I",Financial Services,127.13,408.54,221.4,119.5,408.54,22.7,6.1,NO,189.0,244.1
-MA,Mastercard Incorporated,Financial Services,493.98,497.09,0.6,463.99,553.97,232.1,15.8,NO,70.0,232.7
-AMP,"Ameriprise Financial, Inc.",Financial Services,445.71,1153.16,158.7,402.89,1153.16,66.9,9.0,NO,153.0,225.6
-APP,Applovin Corporation,Communication Services,613.09,331.49,-45.9,502.73,833.8,266.4,59.0,NO,0.0,220.49999999999997
-VICI,VICI Properties Inc.,Real Estate,28.22,83.95,197.5,26.53,83.95,11.3,3.5,NO,632.0,208.8
-UAL,"United Airlines Holdings, Inc.",Industrials,114.8,321.43,180.0,103.72,321.43,25.7,10.6,NO,0.0,205.7
-SPG,"Simon Property Group, Inc.",Real Estate,204.91,374.6,82.8,182.57,374.6,113.6,19.3,NO,429.0,196.39999999999998
-EQT,EQT Corporation,Energy,54.93,151.51,175.8,51.63,151.51,13.4,49.9,NO,120.0,189.20000000000002
-CB,Chubb Limited,Financial Services,311.73,812.76,160.7,293.03,812.76,15.4,10.2,NO,131.0,176.1
-EXE,Expand Energy Corporation,Energy,92.98,235.2,153.0,87.4,235.2,17.6,41.0,NO,343.0,170.6
-RF,Regions Financial Corporation,Financial Services,28.0,69.29,147.5,25.69,69.29,11.9,7.3,NO,379.0,159.4
-PGR,Progressive Corporation (The),Financial Services,190.4,415.04,118.0,178.98,415.04,37.9,8.7,NO,730.0,155.9
-KMB,Kimberly-Clark Corporation,Consumer Defensive,97.6,140.49,43.9,91.74,140.49,111.7,2.7,NO,525.0,155.6
-TFC,Truist Financial Corporation,Financial Services,48.21,116.15,140.9,44.72,116.15,8.6,5.2,NO,431.0,149.5
-MTB,M&T Bank Corporation,Financial Services,216.11,512.04,136.9,203.14,512.04,10.3,5.7,NO,278.0,147.20000000000002
-COR,"Cencora, Inc.",Healthcare,269.36,374.9,39.2,253.2,374.9,107.1,3.8,NO,89.0,146.3
-LVS,Las Vegas Sands Corp.,Consumer Cyclical,50.57,77.91,54.1,47.16,77.91,90.5,25.3,NO,218.0,144.6
-AFL,AFLAC Incorporated,Financial Services,112.42,251.56,123.8,105.67,251.56,16.5,27.9,NO,217.0,140.3
-EOG,"EOG Resources, Inc.",Energy,133.38,292.1,119.0,125.38,292.1,18.2,15.6,NO,306.0,137.2
-PCG,Pacific Gas & Electric Co.,Utilities,16.34,37.09,127.0,15.36,37.09,8.8,15.0,NO,122.0,135.8
-BAC,Bank of America Corporation,Financial Services,51.6,115.86,124.5,46.56,115.86,10.6,8.1,NO,217.0,135.1
-WRB,W.R. Berkley Corporation,Financial Services,63.54,135.7,113.6,59.73,135.7,20.2,4.0,NO,57.0,133.79999999999998
-KEY,KeyCorp,Financial Services,21.33,46.86,119.7,19.53,46.86,10.0,11.8,NO,384.0,129.7
+STX,Seagate Technology Holdings PLC,Technology,847.47,302.16,-64.3,706.25,1129.91,1788.0,44.1,NO,35.0,1723.7
+CI,The Cigna Group,Healthcare,289.48,3269.16,1029.3,272.11,3269.16,16.3,4.6,NO,216.0,1045.6
+ALL,Allstate Corporation (The),Financial Services,221.01,1299.5,488.0,207.75,1299.5,45.2,3.0,NO,195.0,533.2
+SYF,Synchrony Financial,Financial Services,70.84,277.73,292.1,63.35,277.73,21.8,6.1,NO,169.0,313.90000000000003
+CL,Colgate-Palmolive Company,Consumer Defensive,88.58,24.06,-72.8,83.27,99.21,363.6,8.4,NO,239.0,290.8
+FIS,Fidelity National Information S,Technology,40.95,148.35,262.3,38.32,148.35,17.2,30.1,NO,410.0,279.5
+TRV,"The Travelers Companies, Inc.",Financial Services,303.25,963.41,217.7,285.06,963.41,25.3,1.0,NO,165.0,243.0
+MA,Mastercard Incorporated,Financial Services,491.08,497.09,1.2,461.62,550.01,232.1,15.8,NO,71.0,233.29999999999998
+HIG,"The Hartford Insurance Group, I",Financial Services,132.14,408.54,209.2,124.21,408.54,22.7,6.1,NO,182.0,231.89999999999998
+UAL,"United Airlines Holdings, Inc.",Industrials,105.73,321.43,204.0,94.81,321.43,25.7,10.6,NO,0.0,229.7
+APP,Applovin Corporation,Communication Services,557.2,330.05,-40.8,456.9,757.79,266.4,59.0,NO,0.0,225.59999999999997
+AMP,"Ameriprise Financial, Inc.",Financial Services,454.66,1154.31,153.9,412.25,1154.31,66.9,9.0,NO,150.0,220.8
+VICI,VICI Properties Inc.,Real Estate,27.86,83.95,201.3,26.19,83.95,11.3,3.5,NO,646.0,212.60000000000002
+EQT,EQT Corporation,Energy,53.75,151.51,181.9,50.52,151.51,13.4,49.9,NO,123.0,195.3
+SPG,"Simon Property Group, Inc.",Real Estate,210.31,374.86,78.2,187.66,374.86,113.6,19.3,NO,418.0,191.8
+EXE,Expand Energy Corporation,Energy,92.07,235.2,155.5,86.55,235.2,17.6,41.0,NO,346.0,173.1
+CB,Chubb Limited,Financial Services,326.27,812.19,148.9,306.69,812.19,15.4,10.2,NO,125.0,164.3
+RF,Regions Financial Corporation,Financial Services,28.54,69.29,142.8,26.2,69.29,11.9,7.3,NO,371.0,154.70000000000002
+KMB,Kimberly-Clark Corporation,Consumer Defensive,99.04,140.49,41.9,93.1,140.49,111.7,2.7,NO,517.0,153.6
+NEM,Newmont Corporation,Basic Materials,99.71,221.66,122.3,93.73,221.66,25.8,45.8,NO,104.0,148.1
+LVS,Las Vegas Sands Corp.,Consumer Cyclical,50.25,77.91,55.0,46.99,77.91,90.5,25.3,NO,219.0,145.5
+TFC,Truist Financial Corporation,Financial Services,49.2,116.15,136.1,45.72,116.15,8.6,5.2,NO,423.0,144.7
+COR,"Cencora, Inc.",Healthcare,275.04,374.9,36.3,258.54,374.9,107.1,3.8,NO,87.0,143.39999999999998
+PGR,Progressive Corporation (The),Financial Services,204.02,415.04,103.4,191.78,415.04,37.9,8.7,NO,681.0,141.3
+MTB,M&T Bank Corporation,Financial Services,222.44,512.33,130.3,209.09,512.33,10.3,5.7,NO,270.0,140.60000000000002
+EOG,"EOG Resources, Inc.",Energy,137.78,292.39,112.2,129.51,292.39,18.2,15.6,NO,296.0,130.4
+INCY,Incyte Corporation,Healthcare,102.38,203.55,98.8,95.91,203.55,30.8,20.9,NO,0.0,129.6
+AFL,AFLAC Incorporated,Financial Services,118.24,251.56,112.8,111.15,251.56,16.5,27.9,NO,206.0,129.3
+BAC,Bank of America Corporation,Financial Services,53.83,115.86,115.2,48.68,115.86,10.6,8.1,NO,208.0,125.8
+PCG,Pacific Gas & Electric Co.,Utilities,17.11,37.09,116.8,16.08,37.09,8.8,15.0,NO,117.0,125.6

@@ -1,31 +1,31 @@
 Ticker,Name,Sector,Price,Fair_Value,Upside_%,Stop_Loss,Target_Sell,ROE_%,Rev_Growth_%,Trap_Warning,Dividend_Yield_%,Quality_Score
-ALL,Allstate Corporation (The),Financial Services,253.71,1435.49,465.8,238.49,1435.49,46.1,11.8,NO,170.0,511.90000000000003
-STX,Seagate Technology Holdings PLC,Technology,830.17,398.48,-52.0,691.56,1107.38,371.5,48.5,NO,36.0,319.5
-HON,Honeywell International Inc.,Industrials,202.36,747.5,269.4,187.77,747.5,46.6,4.3,NO,138.0,316.0
-CINF,Cincinnati Financial Corporatio,Financial Services,169.8,608.92,258.6,159.61,608.92,21.5,31.6,NO,221.0,280.1
-MA,Mastercard Incorporated,Financial Services,569.19,522.1,-8.3,535.04,637.49,241.2,14.1,NO,61.0,232.89999999999998
-HIG,"The Hartford Insurance Group, I",Financial Services,136.36,416.3,205.3,128.18,416.3,22.1,8.1,NO,176.0,227.4
-CF,"CF Industries Holdings, Inc.",Basic Materials,133.07,387.55,191.2,125.09,387.55,29.9,17.6,NO,180.0,221.1
-APP,Applovin Corporation,Communication Services,323.96,374.32,15.5,265.65,440.59,203.7,52.8,NO,0.0,219.2
-TRV,"The Travelers Companies, Inc.",Financial Services,375.2,1070.08,185.2,352.69,1070.08,26.5,0.3,NO,133.0,211.7
-TPR,"Tapestry, Inc.",Consumer Cyclical,118.49,127.4,7.5,104.92,145.64,197.1,8.9,NO,156.0,204.6
-WDC,Western Digital Corporation,Technology,447.18,773.95,73.1,369.12,773.95,130.9,43.8,NO,13.0,204.0
-PCG,Pacific Gas & Electric Co.,Utilities,13.8,39.96,189.6,12.97,39.96,9.3,0.1,NO,145.0,198.9
-CL,Colgate-Palmolive Company,Consumer Defensive,86.8,24.45,-71.8,81.59,97.22,267.4,4.9,NO,244.0,195.59999999999997
-TROW,"T. Rowe Price Group, Inc.",Financial Services,106.29,286.35,169.4,93.71,286.35,19.4,10.7,NO,489.0,188.8
-PRU,"Prudential Financial, Inc.",Financial Services,119.24,317.11,165.9,111.43,317.11,12.0,14.1,NO,473.0,177.9
-DVN,Devon Energy Corporation,Energy,50.23,132.25,163.3,47.22,132.25,11.5,64.2,NO,255.0,174.8
-EOG,"EOG Resources, Inc.",Energy,147.36,369.44,150.7,138.52,369.44,22.5,58.7,NO,277.0,173.2
-TFC,Truist Financial Corporation,Financial Services,50.4,125.06,148.1,46.92,125.06,9.1,8.2,NO,413.0,157.2
-SMCI,"Super Micro Computer, Inc.",Technology,40.1,93.72,133.7,33.7,93.72,21.5,93.2,NO,0.0,155.2
-EXPE,"Expedia Group, Inc.",Consumer Cyclical,280.83,456.84,62.7,252.75,456.84,89.5,14.0,NO,68.0,152.2
-BMY,Bristol-Myers Squibb Company,Healthcare,63.64,130.53,105.1,59.82,130.53,46.6,5.7,NO,396.0,151.7
-MPC,Marathon Petroleum Corporation,Energy,395.93,828.58,109.3,372.17,828.58,42.1,53.7,NO,101.0,151.4
-DLTR,"Dollar Tree, Inc.",Consumer Defensive,118.17,234.89,98.8,111.08,234.89,46.0,7.0,NO,0.0,144.8
-USB,U.S. Bancorp,Financial Services,62.84,144.04,129.2,57.96,144.04,12.6,10.4,NO,344.0,141.79999999999998
-LMT,Lockheed Martin Corporation,Industrials,524.19,779.12,48.6,492.74,779.12,89.2,10.5,NO,263.0,137.8
-MTB,M&T Bank Corporation,Financial Services,239.83,543.38,126.6,225.44,543.38,10.7,6.2,NO,250.0,137.29999999999998
-BRK-B,Berkshire Hathaway Inc. New,Financial Services,510.37,1143.1,124.0,479.75,1143.1,12.1,10.0,NO,0.0,136.1
-KEY,KeyCorp,Financial Services,21.84,49.16,125.1,20.05,49.16,10.3,10.1,NO,375.0,135.4
-T,AT&T Inc.,Communication Services,26.06,55.75,113.9,24.5,55.75,18.3,2.3,NO,426.0,132.20000000000002
-SYF,Synchrony Financial,Financial Services,75.99,160.39,111.1,68.04,160.39,20.8,0.6,NO,179.0,131.9
+ALL,Allstate Corporation (The),Financial Services,249.83,1435.77,474.7,234.84,1435.77,46.1,11.8,NO,173.0,520.8
+STX,Seagate Technology Holdings PLC,Technology,858.79,399.91,-53.4,715.41,1145.56,371.5,48.5,NO,34.0,318.1
+HON,Honeywell International Inc.,Industrials,206.46,747.79,262.2,191.58,747.79,46.6,4.3,NO,136.0,308.8
+CINF,Cincinnati Financial Corporatio,Financial Services,169.0,609.21,260.5,158.86,609.21,21.5,31.6,NO,223.0,282.0
+HIG,"The Hartford Insurance Group, I",Financial Services,131.89,416.3,215.6,123.98,416.3,22.1,8.1,NO,182.0,237.7
+MA,Mastercard Incorporated,Financial Services,565.24,523.25,-7.4,531.33,633.07,241.2,14.1,NO,62.0,233.79999999999998
+APP,Applovin Corporation,Communication Services,308.06,373.75,21.3,252.61,418.96,203.7,52.8,NO,0.0,225.0
+PCG,Pacific Gas & Electric Co.,Utilities,13.2,39.96,202.7,12.41,39.96,9.3,0.1,NO,152.0,212.0
+TRV,"The Travelers Companies, Inc.",Financial Services,374.62,1069.5,185.5,352.14,1069.5,26.5,0.3,NO,133.0,212.0
+TPR,"Tapestry, Inc.",Consumer Cyclical,115.0,127.22,10.6,101.83,141.35,197.1,8.9,NO,161.0,207.7
+WDC,Western Digital Corporation,Technology,441.36,773.95,75.4,364.32,773.95,130.9,43.8,NO,14.0,206.3
+CL,Colgate-Palmolive Company,Consumer Defensive,87.47,24.45,-72.0,82.22,97.97,267.4,4.9,NO,242.0,195.39999999999998
+TROW,"T. Rowe Price Group, Inc.",Financial Services,104.16,286.35,174.9,91.83,286.35,19.4,10.7,NO,499.0,194.3
+DVN,Devon Energy Corporation,Energy,48.61,132.25,172.1,45.69,132.25,11.5,64.2,NO,263.0,183.6
+PRU,"Prudential Financial, Inc.",Financial Services,118.4,317.11,167.8,110.64,317.11,12.0,14.1,NO,473.0,179.8
+EOG,"EOG Resources, Inc.",Energy,144.23,369.44,156.1,135.58,369.44,22.5,58.7,NO,283.0,178.6
+TFC,Truist Financial Corporation,Financial Services,48.56,125.06,157.5,45.21,125.06,9.1,8.2,NO,428.0,166.6
+SMCI,"Super Micro Computer, Inc.",Technology,39.09,93.72,139.8,32.85,93.72,21.5,93.2,NO,0.0,161.3
+DLTR,"Dollar Tree, Inc.",Consumer Defensive,111.96,234.6,109.5,105.24,234.6,46.0,7.0,NO,0.0,155.5
+BMY,Bristol-Myers Squibb Company,Healthcare,63.06,130.53,107.0,59.28,130.53,46.6,5.7,NO,400.0,153.6
+EXPE,"Expedia Group, Inc.",Consumer Cyclical,279.35,457.12,63.6,251.42,457.12,89.5,14.0,NO,69.0,153.1
+USB,U.S. Bancorp,Financial Services,60.06,144.04,139.8,55.39,144.04,12.6,10.4,NO,360.0,152.4
+MTB,M&T Bank Corporation,Financial Services,227.31,543.09,138.9,213.67,543.09,10.7,6.2,NO,264.0,149.6
+KEY,KeyCorp,Financial Services,20.81,49.16,136.2,19.11,49.16,10.3,10.1,NO,394.0,146.5
+WFC,Wells Fargo & Company,Financial Services,86.12,197.8,129.7,79.81,197.8,12.6,9.5,NO,232.0,142.29999999999998
+T,AT&T Inc.,Communication Services,25.4,55.75,119.5,23.88,55.75,18.3,2.3,NO,437.0,137.8
+MPC,Marathon Petroleum Corporation,Energy,424.89,829.44,95.2,399.4,829.44,42.1,53.7,NO,94.0,137.3
+PNC,"PNC Financial Services Group, I",Financial Services,233.17,522.1,123.9,216.59,522.1,12.6,23.6,NO,343.0,136.5
+BRK-B,Berkshire Hathaway Inc. New,Financial Services,509.77,1143.1,124.2,479.18,1143.1,12.1,10.0,NO,0.0,136.3
+LMT,Lockheed Martin Corporation,Industrials,533.38,779.12,46.1,501.38,779.12,89.2,10.5,NO,259.0,135.3

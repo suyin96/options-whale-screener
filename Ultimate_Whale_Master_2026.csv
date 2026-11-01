@@ -1,31 +1,31 @@
 Ticker,Name,Sector,Price,Fair_Value,Upside_%,Stop_Loss,Target_Sell,ROE_%,Rev_Growth_%,Trap_Warning,Dividend_Yield_%,Quality_Score
-ALL,Allstate Corporation (The),Financial Services,253.19,1436.92,467.5,238.0,1436.92,46.1,11.8,NO,171.0,513.6
-STX,Seagate Technology Holdings PLC,Technology,630.49,399.62,-36.6,525.53,840.42,371.5,48.5,NO,47.0,334.9
-WDC,Western Digital Corporation,Technology,343.67,817.36,137.8,284.04,817.36,129.6,55.5,NO,20.0,267.4
-CINF,Cincinnati Financial Corporatio,Financial Services,176.3,608.92,245.4,165.72,608.92,21.5,31.6,NO,213.0,266.9
-APP,Applovin Corporation,Communication Services,260.25,374.04,43.7,213.41,374.04,203.7,52.8,NO,0.0,247.39999999999998
-MU,"Micron Technology, Inc.",Technology,877.55,2136.99,143.5,721.28,2136.99,88.3,379.3,NO,7.0,231.8
-MA,Mastercard Incorporated,Financial Services,623.6,522.67,-16.2,585.69,699.43,241.2,14.1,NO,56.0,225.0
-HIG,"The Hartford Insurance Group, I",Financial Services,136.76,406.24,197.0,128.55,406.24,22.1,8.1,NO,175.0,219.1
-TPR,"Tapestry, Inc.",Consumer Cyclical,110.37,127.22,15.3,97.75,135.6,197.1,8.9,NO,168.0,212.4
-SMCI,"Super Micro Computer, Inc.",Technology,32.94,93.72,184.5,27.65,93.72,21.5,93.2,NO,0.0,206.0
-TROW,"T. Rowe Price Group, Inc.",Financial Services,104.2,286.35,174.8,91.94,286.35,19.4,10.7,NO,499.0,194.20000000000002
-CL,Colgate-Palmolive Company,Consumer Defensive,94.04,24.45,-74.0,88.4,105.32,267.4,4.9,NO,225.0,193.39999999999998
-PRU,"Prudential Financial, Inc.",Financial Services,114.99,317.4,176.0,107.26,317.4,12.0,14.1,NO,487.0,188.0
-DVN,Devon Energy Corporation,Energy,51.39,131.96,156.8,48.31,131.96,11.5,64.2,NO,249.0,168.3
-BMY,Bristol-Myers Squibb Company,Healthcare,61.48,130.53,112.3,57.79,130.53,46.6,5.7,NO,410.0,158.9
-STZ,"Constellation Brands, Inc.",Consumer Defensive,138.68,321.14,131.6,130.36,321.14,24.0,6.1,NO,297.0,155.6
-NEM,Newmont Corporation,Basic Materials,108.87,247.82,127.6,102.34,247.82,27.3,15.2,NO,96.0,154.9
-C,"Citigroup, Inc.",Financial Services,120.62,294.98,144.6,109.9,294.98,9.4,8.0,NO,222.0,154.0
-AMP,"Ameriprise Financial, Inc.",Financial Services,492.19,932.99,89.6,446.67,932.99,63.4,11.6,NO,138.0,153.0
-EOG,"EOG Resources, Inc.",Energy,163.03,369.44,126.6,153.25,369.44,22.5,58.7,NO,250.0,149.1
-EXPE,"Expedia Group, Inc.",Consumer Cyclical,289.01,460.29,59.3,257.52,460.29,89.5,14.0,NO,66.0,148.8
-GS,"Goldman Sachs Group, Inc. (The)",Financial Services,875.68,1999.56,128.3,785.73,1999.56,17.8,23.3,NO,228.0,146.10000000000002
-KEY,KeyCorp,Financial Services,21.08,49.45,134.6,19.25,49.45,11.2,11.5,NO,389.0,145.79999999999998
-RF,Regions Financial Corporation,Financial Services,28.47,66.43,133.3,26.06,66.43,12.4,5.2,NO,422.0,145.70000000000002
-UAL,"United Airlines Holdings, Inc.",Industrials,97.93,218.13,122.7,87.71,218.13,22.3,17.4,NO,0.0,145.0
-NTRS,Northern Trust Corporation,Financial Services,167.92,366.56,118.3,151.09,366.56,18.4,12.1,NO,210.0,136.7
-DLTR,"Dollar Tree, Inc.",Consumer Defensive,125.31,236.04,88.4,117.79,236.04,46.0,7.0,NO,0.0,134.4
-UBER,"Uber Technologies, Inc.",Technology,66.7,131.1,96.6,59.95,131.1,37.2,12.2,NO,0.0,133.8
-GOOG,Alphabet Inc.,Communication Services,317.28,572.99,80.6,286.54,572.99,48.7,24.2,NO,28.0,129.3
-GOOGL,Alphabet Inc.,Communication Services,320.21,572.99,78.9,289.19,572.99,48.7,24.2,NO,27.0,127.60000000000001
+ALL,Allstate Corporation (The),Financial Services,259.87,1436.92,452.9,244.28,1436.92,46.1,11.8,NO,166.0,499.0
+SNDK,Sandisk Corporation,Technology,1150.89,3597.2,212.6,1058.82,3597.2,141.2,377.9,NO,0.0,353.79999999999995
+APP,Applovin Corporation,Communication Services,228.5,374.04,63.7,187.37,374.04,203.7,52.8,NO,0.0,267.4
+VLO,Valero Energy Corporation,Energy,399.66,1264.14,216.3,375.68,1264.14,46.9,46.5,NO,120.0,263.2
+PSX,Phillips 66,Energy,282.83,896.42,216.9,265.86,896.42,39.8,46.4,NO,188.0,256.7
+WDC,Western Digital Corporation,Technology,366.11,817.36,123.3,302.58,817.36,129.6,55.5,NO,19.0,252.89999999999998
+HIG,"The Hartford Insurance Group, I",Financial Services,132.59,429.52,223.9,124.63,429.52,23.3,3.9,NO,202.0,247.20000000000002
+STX,Seagate Technology Holdings PLC,Technology,644.58,548.26,-14.9,537.27,859.2,259.4,61.0,NO,47.0,244.49999999999997
+MU,"Micron Technology, Inc.",Technology,884.74,2136.99,141.5,727.19,2136.99,88.3,379.3,NO,7.0,229.8
+MA,Mastercard Incorporated,Financial Services,638.01,549.41,-13.9,599.22,715.59,231.4,14.0,NO,55.0,217.5
+AMP,"Ameriprise Financial, Inc.",Financial Services,490.83,1190.83,142.6,445.44,1190.83,72.0,6.1,NO,139.0,214.6
+TPR,"Tapestry, Inc.",Consumer Cyclical,116.29,127.22,9.4,103.0,142.88,197.1,8.9,NO,159.0,206.5
+SMCI,"Super Micro Computer, Inc.",Technology,32.95,93.72,184.4,27.65,93.72,21.5,93.2,NO,0.0,205.9
+PRU,"Prudential Financial, Inc.",Financial Services,116.45,317.4,172.6,108.62,317.4,12.0,14.1,NO,481.0,184.6
+CL,Colgate-Palmolive Company,Consumer Defensive,95.29,41.7,-56.2,87.67,110.54,231.7,4.6,NO,222.0,175.5
+DVN,Devon Energy Corporation,Energy,52.15,131.96,153.0,49.02,131.96,11.5,64.2,NO,245.0,164.5
+STZ,"Constellation Brands, Inc.",Consumer Defensive,135.33,321.14,137.3,127.21,321.14,24.0,6.1,NO,304.0,161.3
+NEM,Newmont Corporation,Basic Materials,106.61,247.82,132.5,100.21,247.82,27.3,15.2,NO,98.0,159.8
+CTSH,Cognizant Technology Solutions ,Technology,65.11,157.55,142.0,60.68,157.55,17.4,4.6,NO,203.0,159.4
+KEY,KeyCorp,Financial Services,21.12,52.33,147.8,19.28,52.33,11.2,11.5,NO,388.0,159.0
+EXPE,"Expedia Group, Inc.",Consumer Cyclical,285.93,460.29,61.0,254.78,460.29,89.5,14.0,NO,67.0,150.5
+C,"Citigroup, Inc.",Financial Services,122.64,294.98,140.5,111.74,294.98,9.4,8.0,NO,219.0,149.9
+PFG,Principal Financial Group Inc,Financial Services,111.63,258.18,131.3,103.85,258.18,16.1,25.4,NO,305.0,147.4
+EOG,"EOG Resources, Inc.",Energy,165.54,369.44,123.2,155.61,369.44,22.5,58.7,NO,246.0,145.7
+RF,Regions Financial Corporation,Financial Services,28.57,66.43,132.5,26.15,66.43,12.4,5.2,NO,420.0,144.9
+GS,"Goldman Sachs Group, Inc. (The)",Financial Services,894.55,1999.56,123.5,802.66,1999.56,17.8,23.3,NO,224.0,141.3
+UBER,"Uber Technologies, Inc.",Technology,65.25,131.1,100.9,58.65,131.1,37.2,12.2,NO,0.0,138.10000000000002
+NTRS,Northern Trust Corporation,Financial Services,169.16,366.56,116.7,152.2,366.56,18.4,12.1,NO,208.0,135.1
+CFG,"Citizens Financial Group, Inc.",Financial Services,63.81,142.31,123.0,58.39,142.31,8.9,11.9,NO,326.0,131.9
+UAL,"United Airlines Holdings, Inc.",Industrials,104.24,218.13,109.3,93.37,218.13,22.3,17.4,NO,0.0,131.6
